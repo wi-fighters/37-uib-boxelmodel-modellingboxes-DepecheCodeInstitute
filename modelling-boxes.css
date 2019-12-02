@@ -1,0 +1,32 @@
+/* investigate why page scrolls into whiteness below, beyond the "100%" */
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #7500FF;
+    color: whitesmoke;
+    height: 25%;
+}
+
+aside {
+    display: inline-block;
+    width: 34%;
+    background-color: #009300;
+    color: whitesmoke;
+    height: 10em;
+    height: 75%;
+}
+
+main {
+    display: inline-block;
+    width: 66%;
+    background-color: #FF0000;
+    color: whitesmoke;
+    height: 10em;
+    height: 75%;
+}
