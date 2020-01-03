@@ -1,5 +1,3 @@
-/* investigate why page scrolls into whiteness below, beyond the "100%" */
-
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +8,7 @@
 header {
     background-color: #7500FF;
     color: whitesmoke;
-    height: 25%;
+    height: 10%;
 }
 
 aside {
@@ -19,7 +17,7 @@ aside {
     background-color: #009300;
     color: whitesmoke;
     height: 10em;
-    height: 75%;
+    height: 80%;
 }
 
 main {
@@ -28,5 +26,11 @@ main {
     background-color: #FF0000;
     color: whitesmoke;
     height: 10em;
-    height: 75%;
+    height: 80%;
+}
+
+footer {
+    background-color: purple;
+    color: whitesmoke;
+    height: 10%;
 }
